@@ -1,0 +1,31 @@
+<div class="container">
+  <h5 class="text-center mb-3">Pending Amount</h5>
+  <div class="row">
+    
+    <div class="col-md-12 col-sm-12 col-12">
+      <table class="table table-striped">
+        <tbody>
+          <tr>
+            <td>
+              <b>Customer Information</b>
+            </td>
+            <td>
+              <b>Pending Amount</b>
+            </td>
+          </tr>
+          <tr *ngFor="let data of serviceCenterData?.pendingAmount">
+            <td>
+              <p class="text-danger">{{data.id}}</p>
+              <b>{{data.name | uppercase }}</b>
+              <p>{{data.contact_no}}</p>
+            </td>
+            <td>
+              {{data.amount | currency:'INR'}}
+            </td>
+          </tr>
+         
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,111 @@
+<div class="container">
+
+  <h5 class="text-center mb-3">View All History Of Car Maintenance/Wash</h5>
+
+  <ul class="nav nav-tabs mb-3" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active " data-toggle="tab" href="#tabs-1" role="tab">Wash</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Maintenance</a>
+    </li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="tabs-1" role="tabpanel">
+      <table class="table table-striped">
+        <tbody>
+          <tr>
+            <th>
+             ID
+            </th>
+            <th>
+              Name
+            </th>
+            <th>
+              Vehicle Type
+            </th>
+            <th>
+             Vehicle Number
+            </th>
+            <th>
+              Date
+            </th>
+            <th>
+              Amount
+            </th>
+          </tr>
+          <tr *ngFor="let data of userData?.carWash">
+            <td>
+              {{data.id}}
+            </td>
+            <td>
+              {{data.name}}
+            </td>
+            <td>
+              {{data.vehicle_type}}
+            </td>
+            <td>
+              {{data.vehicle_no}}
+            </td>
+            <td>
+              {{data.date}}
+            </td>
+            <td>
+              {{data.amount}}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tab-pane" id="tabs-2" role="tabpanel">
+      <table class="table table-striped">
+        <tbody>
+          <tr>
+            <th>
+             ID
+            </th>
+            <th>
+              Name
+            </th>
+            <th>
+              Vehicle Type
+            </th>
+            <th>
+             Vehicle Number
+            </th>
+            <th>
+              Date
+            </th>
+            <th>
+              Amount
+            </th>
+          </tr>
+          <tr *ngFor="let data of userData?.CarMaintenance">
+            <td>
+              {{data.id}}
+            </td>
+            <td>
+              {{data.name}}
+            </td>
+            <td>
+              {{data.vehicle_type}}
+            </td>
+            <td>
+              {{data.vehicle_no}}
+            </td>
+            <td>
+              {{data.date}}
+            </td>
+            <td>
+              {{data.amount}}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>

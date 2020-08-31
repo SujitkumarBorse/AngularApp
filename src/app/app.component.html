@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <a routerLink="/home" class="navbar-brand  mr-5 bgBrand">
+            <h4>Angular App</h4>
+      </a>
+
+      <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto font-weight-bold">
+                  <a routerLink="/home" class="nav-item nav-link">HOME</a>
+                  <a routerLink="/mission" class="nav-item nav-link">MISSION</a>
+                  <a routerLink="/offers" class="nav-item nav-link">OFFERS</a>
+                  <a routerLink="/services" class="nav-item nav-link">SERVICES</a>
+                  <a routerLink="/product" class="nav-item nav-link">PRODUCTS</a>
+                  <a routerLink="/events" class="nav-item nav-link">EVENTS</a>
+                  <a routerLink="/socialMedia" class="nav-item nav-link">CONNECT</a>
+                  <a routerLink="/signup/user-signup"class="nav-item nav-link">SignUp</a>
+            </div>
+      </div>
+</nav>
+
+<div class="marginTop">
+      <router-outlet></router-outlet>
+</div>

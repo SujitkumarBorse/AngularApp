@@ -1,0 +1,166 @@
+.carousel-item img {
+      height: 150px;
+      width: 200px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+      height: 45px;
+      width: 35px;
+      background-color: rgb(0, 0, 128);
+}
+
+.carousel-control-prev-icon {
+      margin-left: -280px;
+}
+
+.carousel-control-next-icon {
+      margin-right: -280px;
+}
+
+.mgrTOP {
+      margin-top: 50px;
+      width: 100%;
+      height: 80vh;
+}
+
+.mgrbottom {
+      margin-top: 55px;
+      background-color: rgb(241, 235, 235);
+}
+
+.txtclr {
+      color: rgb(0, 0, 128);
+}
+
+.searchBox {
+      width: 350px;
+}
+
+.searchbtn {
+      background-color: rgb(0, 0, 128);
+      color: white;
+      width: 120px;
+}
+
+.connectClaas {
+      padding-top: 24px;
+      padding-bottom: 24px;
+}
+
+.connectClaas h2 {
+      font-weight: bold;
+      font-size: 50px;
+}
+
+.contactClass {
+      margin-top: 15px;
+      padding-top: 20px;
+}
+
+.contactClass h2 {
+      font-weight: bold;
+      font-size: 50px;
+      padding-bottom: 10px;
+}
+
+.fontclass {
+      padding-top: 40px;
+}
+
+.footerClass h5 {
+      padding-top: 11px;
+      padding-bottom: 11px;
+}
+
+p {
+      margin-top: 2px;
+      margin-bottom: 2px;
+}
+
+.social a {
+      font-size: 2em;
+      padding: 1rem;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin, .fa-youtube {
+      color: #f3ebeb;
+      border: 1px solid rgb(255, 253, 253);
+      border-radius: 50%;
+      padding: 4px;
+      background-color: rgb(101, 101, 245);
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-youtube:hover {
+      color: black;
+      background-color: yellow;
+}
+
+.socialname {
+      color: rgb(0, 0, 128);
+}
+
+@media (max-width: 768px) {
+      .carousel-item .col-12{
+            max-width: 50%;
+      }
+      .fontclass{
+            padding-top: 10px;
+      }
+      .carousel-item img {
+            height: 135px;
+            width: 160px;
+            margin-left:8px ;
+      }
+      .searchbtn {
+            width: 200px;
+            margin-bottom: 15px !important;
+      }
+      .searchBox {
+            width: 450px;
+            margin-bottom: 10px !important;
+      }
+      .txtclr{
+            margin-top:15px !important;
+      }
+      .mgrbottom {
+            margin-top: 70px;
+            background-color: rgb(241, 235, 235);
+      }
+}
+
+@media (max-width: 414px) {
+      .carousel-control-prev-icon {
+            margin-left: -65px;
+      }
+      
+      .carousel-control-next-icon {
+            margin-right: -65px;
+      }
+      .carousel-item .col-12{
+            max-width: 50%;
+      }
+      .carousel-control-prev-icon, .carousel-control-next-icon {
+            height: 30px;
+            width: 20px;
+            background-color: rgb(0, 0, 128);
+      }
+      .fontclass{
+            padding-top: 10px;
+      }
+      .carousel-item img {
+            height: 135px;
+            width: 160px;
+            margin-left:8px ;
+      }
+      .searchbtn {
+            width: 150px;
+            margin-bottom: 15px !important;
+      }
+      .searchBox {
+            width: 380px;
+            margin-bottom: 10px !important;
+      }
+      .txtclr{
+            margin-top:15px !important;
+      }
+}

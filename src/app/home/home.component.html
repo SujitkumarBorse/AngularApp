@@ -1,0 +1,89 @@
+<div class="img">
+  <div class="layer">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mgrText">
+          <h1 class="textclr">EASY <br> SERVICE <br> BOOKING</h1>
+          <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing. <br>
+            Aliquam, facilis autem
+            id aut deserunt odit!</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="col-md-6 mgrform">
+
+  <h5 class="text-center h6clr p-1 mt-2">Login</h5>
+
+  <hr>
+
+  <form class="mt-4 mgrformtp">
+
+    <div class="form-group">
+      <input class="form-control" type="text" autocomplete="username" placeholder="Mobile/Email"
+      name="username" [(ngModel)]="username">
+    </div>
+
+    <div class="form-group">
+      <input class="form-control" type="password" autocomplete="current-password" placeholder="Password" name="password" [(ngModel)]="password">
+    </div>
+
+    <div class="custom-control custom-checkbox form-group mt-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck1">
+      <label class="custom-control-label pr-4" for="customCheck1">Remember Me</label>
+      <a class="paddingForgotP" href="#" data-target="#pwdModal" data-toggle="modal">Forgot Password?</a>
+    </div>
+
+    <div class="form-group mt-4 mgrbtn">
+      <button class="btn btn-primary btn-rounded" (click)="userLogin()">Login</button>
+      <button class="btn btn-danger  btn-rounded ">Cancel</button>
+    </div>
+
+    <div class="form-group text-center mt-3">
+      <span>Don't have anaccount? <a routerLink="/signup/user-signup">Sign-up here</a></span>
+    </div>
+
+  </form>
+
+  <!-- forgot password model -->
+  <div id="pwdModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="text-center">Forgot Password?</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        </div>
+
+        <div class="modal-body">
+          <div class="col-md-12">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="text-center">
+
+                  <p>If you have forgot your password you can reset it here.</p>
+                  <div class="panel-body">
+                    <fieldset>
+                      <div class="form-group">
+                        <input class="form-control input-lg" placeholder="E-mail Address" name="email" type="email">
+                      </div>
+                      <input class="btn btn-primary btn-block" value="Send My Password" type="submit">
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+

@@ -1,0 +1,24 @@
+
+<div id="sidebar">
+    <div class="toggle-btn" (click)="togglesidebar()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul>
+      <li routerLink="/service-center/view-booking">View Booking</li>
+      <li routerLink="/service-center/customer-history"> Customer History</li>
+      <li routerLink="/service-center/edit-profile">Edit Profile</li>
+      <li routerLink="/service-center/change-password">Change Password</li>
+      <li routerLink="/service-center/confirm-orders">Confirmed Orders</li>
+      <!-- <li routerLink="/service-center/wallet-status"> Wallet Status</li> -->
+      <li routerLink="/service-center/total-pending">Pending Amount</li>
+      <li (click)="logout()" class="pointer">Logout</li>
+    </ul>
+  </div>
+  
+  <div class="container">
+    <div class="col-md-10 col-sm-10 col-10 offset-1 mt-5">
+      <router-outlet></router-outlet>
+    </div>
+  </div>

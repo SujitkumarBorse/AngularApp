@@ -1,0 +1,15 @@
+.nav-link {
+      padding: 0.5rem 13.95rem !important;
+}
+
+@media (max-width: 768px) {
+      .nav-link {
+            padding: 0.5rem 5.93rem !important;
+      }
+}
+
+@media (max-width: 414px) {
+      .nav-link {
+            padding: 0.5rem 1.56rem !important;
+      }
+}

@@ -1,0 +1,91 @@
+<div class="container bgColor">
+  <div class="row">
+
+    <div class="col-md-6 col-md-12 col-12">
+      <form (ngSubmit)="onSubmit()" #userForm="ngForm" [hidden]="submitted">
+        <h4 class="text-center mb-4">User SignUp</h4>
+
+
+        <div class="col-md-12 row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control" required [(ngModel)]="user.fullname" name="fullname"
+                #fullname="ngModel" placeholder="Enter Full Name">
+              <div [hidden]="fullname.valid || fullname.pristine" class="alert alert-danger">
+                Full Name is required
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" class="form-control" required [(ngModel)]="user.emailId" name="emailId"
+                #emailId="ngModel" placeholder="Enter Email Id">
+              <div [hidden]="emailId.valid || emailId.pristine" class="alert alert-danger">
+                Email Id is required
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control" required [(ngModel)]="user.mobileNo" name="mobileNo"
+                #mobileNo="ngModel" placeholder="Enter Mobile Number">
+              <div [hidden]="mobileNo.valid || mobileNo.pristine" class="alert alert-danger">
+                Mobile Number is required
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="password" class="form-control" required [(ngModel)]="user.password" name="password"
+                #password="ngModel" placeholder="Enter Password">
+              <div [hidden]="password.valid || password.pristine" class="alert alert-danger">
+                Password is required
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 row">
+          <div class="col-md-6">
+            <button type="submit" class="btn btn-success btn-block" [disabled]="!userForm.form.valid">Submit</button>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-primary btn-block" (click)="userForm.reset()">New User</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="container mt-3 mb-2 pb-2">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 col-12">
+          <div [hidden]="!submitted">
+            <h5 class="text-center text-info">You submitted the following Data :</h5>
+            <table class="table table-bordered border-dark table-responsive">
+              <tbody>
+                  <tr>
+                    <th>Full Name</th>
+                    <th>Email ID</th>
+                    <th>Mobile Number</th>
+                    <th>Password</th>
+                  </tr>
+                  <tr>
+                    <td>{{ user.fullname}}</td>
+                    <td>{{ user.emailId }}</td> 
+                    <td>{{ user.mobileNo}}</td> 
+                    <td>{{ user.password}}</td>
+                 </tr>
+              </tbody>
+            </table>
+            <br>
+            <button class="btn btn-success btn-block" (click)="submitted=false">Edit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

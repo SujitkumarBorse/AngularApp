@@ -1,0 +1,23 @@
+
+
+<div id="sidebar">
+  <div class="toggle-btn" (click)="togglesidebar()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <ul>
+    <li routerLink="/user/booking-of-servicing">Bookings</li>
+    <li routerLink="/user/history">History</li>
+    <li routerLink="/user/edit-profile">Edit Profile</li>
+    <li routerLink="/user/change-password">Change Password</li>
+    <li (click)="logout()" class="pointer">Logout</li>
+  </ul>
+</div>
+
+
+<div class="container-fluid">
+  <div class="col-md-10 col-sm-10 col-10 offset-1 mt-5">
+    <router-outlet></router-outlet>
+  </div>
+</div>

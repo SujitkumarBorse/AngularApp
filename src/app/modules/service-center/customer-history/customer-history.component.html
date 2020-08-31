@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <h5 class="text-center mb-3">Customer History</h5>
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-12">
+      <table class="table table-striped">
+        <tbody>
+          <tr *ngFor="let data of serviceCenterData?.customerHistory">
+            <td>
+              <img class="img-fluid rounded" [src]='data.image' alt="pic">
+            </td>
+            <td>
+              <p> <span class="font-weight-bold">ID</span> : {{data.id}}</p>
+              <p> <span class="font-weight-bold">Name</span> : {{data.name}}</p>
+              <p> <span class="font-weight-bold">Vehicle Type</span> : {{data.vehicle_type}}</p>
+              <p> <span class="font-weight-bold">Coontact Number</span> : {{data.contact_no}}</p>
+              <p> <span class="font-weight-bold">Date</span> : {{data.date}}</p>
+              <p> <span class="font-weight-bold">Amount</span> : {{data.amount | currency:'INR'}}</p>
+              <p> <span class="font-weight-bold">Address</span> : {{data.address}}</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

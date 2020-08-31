@@ -1,0 +1,63 @@
+form {
+      h5 {
+            margin: 30px;
+      }
+
+      .btns {
+            background-color: white;
+            width: 497px;
+            border: 1px solid #d8d8d8;
+      }
+      .dpmenu {
+            width: 497px;
+      }
+      .btn-rounded {
+            border-radius: 25px;
+            width: 450px;
+            margin: 0 40px;
+      }
+}
+
+@media (max-width: 768px) {
+      form {
+            h5 {
+                  margin: 40px;
+            }
+            .btns {
+                  background-color: white;
+                  width: 247px;
+                  border: 1px solid #d8d8d8;
+            }
+
+            .dpmenu {
+                  width: 247px;
+            }
+            .btn-rounded {
+                  border-radius: 25px;
+                  width: 255px;
+                  margin: 0 10px;
+            }
+      }
+}
+
+@media (max-width: 414px) {
+      form {
+            h5 {
+                  margin: 40px;
+            }
+            .btns {
+                  background-color: white;
+                  width: 230px;
+                  border: 1px solid #d8d8d8;
+                  margin-bottom: 12px;
+            }
+            .dpmenu {
+                  width: 230px;
+            }
+            .btn-rounded {
+                  border-radius: 25px;
+                  width: 118px;
+                  margin: 0 5px;
+            }
+      }
+}

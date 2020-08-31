@@ -1,0 +1,200 @@
+{
+    "carWash": [
+          {
+                "id": "1",
+                "name": "sujit borse",
+                "vehicle_type":"two wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : 150
+          },
+          {
+                "id": "2",
+                "name": "sujit borse",
+                "vehicle_type":"four wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "350"
+          },
+          {
+                "id": "3",
+                "name": "sujit borse",
+                "vehicle_type":"two wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : 150
+          },
+          {
+                "id": "4",
+                "name": "sujit borse",
+                "vehicle_type":"four wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "350"
+          },
+          {
+                "id": "5",
+                "name": "sujit borse",
+                "vehicle_type":"two wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : 150
+          },
+          {
+                "id": "6",
+                "name": "sujit borse",
+                "vehicle_type":"four wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "350"
+          },
+          {
+                "id": "7",
+                "name": "sujit borse",
+                "vehicle_type":"two wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : 150
+          },
+          {
+                "id": "8",
+                "name": "sujit borse",
+                "vehicle_type":"four wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "350"
+          },
+          {
+                "id": "9",
+                "name": "sujit borse",
+                "vehicle_type":"two wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : 150
+          },
+          {
+                "id": "10",
+                "name": "sujit borse",
+                "vehicle_type":"four wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "350"
+          },
+          {
+                "id": "11",
+                "name": "sujit borse",
+                "vehicle_type":"two wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : 150
+          },
+          {
+                "id": "12",
+                "name": "sujit borse",
+                "vehicle_type":"four wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "350"
+          }
+    ],
+    
+    "CarMaintenance": [
+          {
+                "id": "1",
+                "name": "Amol Borse",
+                "vehicle_type":"two wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "1450"
+          },
+          {
+                "id": "2",
+                "name": "Amol borse",
+                "vehicle_type":"four wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "2450"
+          },
+          {
+                "id": "3",
+                "name": "Amol borse",
+                "vehicle_type":"two wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "1150"
+          },
+          {
+                "id": "4",
+                "name": "Amol borse",
+                "vehicle_type":"four wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "1850"
+          },
+          {
+                "id": "5",
+                "name": "Amol borse",
+                "vehicle_type":"two wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "1050"
+          },
+          {
+                "id": "6",
+                "name": "Amol borse",
+                "vehicle_type":"four wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "2150"
+          },
+          {
+                "id": "7",
+                "name": "Amol borse",
+                "vehicle_type":"two wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "1750"
+          },
+          {
+                "id": "8",
+                "name": "Amol borse",
+                "vehicle_type":"four wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : 150
+          },
+          {
+                "id": "9",
+                "name": "Amol borse",
+                "vehicle_type":"two wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "960"
+          },
+          {
+                "id": "10",
+                "name": "Amol borse",
+                "vehicle_type":"four wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "1350"
+          },
+          {
+                "id": "11",
+                "name": "Amol borse",
+                "vehicle_type":"two wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "1020"
+          },
+          {
+                "id": "12",
+                "name": "Amol borse",
+                "vehicle_type":"four wheeler",
+                "vehicle_no":"MH12 SB 5588",
+                "date": "01/07/2020",
+                "amount" : "1250"
+          }
+    ]
+}
+    

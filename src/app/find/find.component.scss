@@ -1,0 +1,93 @@
+.tyre {
+      background-color: rgba(35, 8, 156, 0.8);
+      width: 100%;
+      height: 88vh;
+}
+
+h5 {
+      margin: 5px;
+      text-align: center;
+      color: white;
+}
+
+.underln:hover {
+      text-decoration: underline;
+      text-decoration-color: yellow;
+}
+
+.headMargin {
+      margin: 50px 0 50px 0;
+}
+
+.dropList {
+      text-align: center;
+      margin: 70px 0 100px 0;
+}
+
+.btns {
+      background-color: white;
+      width: 250px;
+}
+
+.dpmenu {
+      width: 250px;
+}
+
+.btn-sm {
+      width: 250px;
+      height: 35px;
+      margin: auto;
+      display: block;
+      margin-top: 4px;
+      margin-bottom: 50px;
+}
+
+.btn-sm:hover {
+      color: white;
+}
+
+@media (max-width: 768px) {
+      .dropList {
+            text-align: center;
+            margin: 30px 0 120px 0;
+      }
+      .dpmenu {
+            width: 165px;
+      }
+      .btns {
+            background-color: white;
+            width: 165px;
+      }
+}
+
+@media (max-width: 414px) {
+      .searchTyre{
+            display: none;
+      }
+      .dropList {
+            text-align: center;
+            margin: 30px 0 90px 0;
+      }
+      .dpmenu {
+            width: 250px;
+      }
+      .btns {
+            background-color: white;
+            width: 250px;
+      }
+      .btn-sm {
+            width: 250px;
+            height: 35px;
+            margin: auto;
+            display: block;
+            margin-top: 30px;
+      }
+      .tyre {
+            background-color: rgba(35, 8, 156, 0.8);
+            width: 100%;
+            height: 90vh;
+      }
+}
+
+
+

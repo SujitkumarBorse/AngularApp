@@ -1,0 +1,27 @@
+<div class="container-fluid">
+  <h5 class="text-center mb-3">View All Booking</h5>
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-12">
+      <table class="table table-striped table-responsive-sm">
+        <tbody>
+          <tr class="text-primary">
+            <th class="text-danger"> ID </th>
+            <th> Image </th>
+            <th> Name </th>
+            <th> Vehicle Type </th>
+            <th> Vehicle Number </th>
+            <th> Date </th>
+          </tr>
+          <tr *ngFor="let data of serviceCenterData?.viewAllBooking">
+            <td> {{data.id}} </td>
+            <td> <img class="img-fluid rounded" [src]='data.image' alt="pic"> </td>
+            <td> {{data.name}} </td>
+            <td> {{data.vehicle_type}} </td>
+            <td> {{data.vehicle_no}} </td>
+            <td> {{data.date | date: 'fullDate'}} </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,47 @@
+.hvr {
+      padding: 5px;
+      &:hover {
+            background-color: yellow !important;
+      }
+}
+
+.mgr {
+      margin-top: 0;
+      margin-bottom: 35px;
+}
+
+.cardWidth img{
+      height: 160px;
+}
+
+.products {
+      width: 100%;
+      height: 89vh;
+      background-color: rgb(236, 232, 236);
+}
+
+.cardWidth {
+      width: 17rem !important;
+}
+
+@media (max-width: 768px) {
+      .cardWidth {
+            width: 12.5rem !important;
+            margin: 20px 5px;
+      }
+}
+
+@media (max-width: 414px) {
+      .cardWidth {
+            width: 23.5rem !important;
+      }
+      .products {
+            width: 100%;
+            height: 245vh;
+            background-color: rgb(236, 232, 236);
+      }
+      .mgr {
+            margin-top: 0;
+            margin-bottom:0;
+      }
+}

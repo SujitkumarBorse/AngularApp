@@ -1,0 +1,136 @@
+.img {
+      background-image: url(../../assets/img/bgHome3.jpg);
+      background-size: cover;
+      height: 88vh;
+      background-position: center;
+      clip-path: polygon(100% 0, 100% 27%, 25% 95%, 0 59%, 0 0);
+}
+
+.layer {
+      background-color: rgba(0, 0, 255, 0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      clip-path: polygon(100% 0, 100% 35%, 25% 95%, 0 63%, 0 0);
+}
+
+.mgrText {
+      margin-top: 150px;
+}
+
+.textclr {
+      color: rgb(255, 255, 0);
+}
+
+.mgrform {
+      width: 320px;
+      height: 340px;
+      border: 2px solid rgb(183, 184, 185);
+      background-color: rgb(183, 184, 185);
+      margin-top: -400px;
+      margin-left: 900px;
+      box-shadow: 6px 7px yellow;
+}
+
+.h6clr {
+      color: rgb(0, 0, 128);
+}
+
+.btnbook {
+      background-color: rgb(0, 0, 128);
+      color: white;
+}
+
+.btn-rounded {
+      border-radius: 25px;
+      width: 130px;
+      margin: 5px;
+}
+
+@media (max-width: 768px){
+      .layer {
+            clip-path: polygon(100% 0, 100% 36.5%, 25% 98%, 0 65%, 0 0);
+      }
+      
+      .mgrText {
+            margin-top: 110px;
+            margin-left: -85px;
+      }
+      .mgrText h1 {
+            font-size: 1.9rem !important;
+      }
+      .mgrform {
+            width: 312px;
+            height: 300px;
+            border: 2px solid rgb(183, 184, 185);
+            background-color: rgb(183, 184, 185);
+            margin-top: -350px;
+            margin-left: 370px;
+            box-shadow: 5px 6px yellow;
+      }
+      .btn-rounded {
+            border-radius: 25px;
+            width: 120px;
+            margin: 5px;
+      }
+      .mgrformtp {
+            margin-top: 10px !important;
+      }
+      .h6clr{
+            margin: 4px 0 !important;
+      }
+      hr{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+      }
+      
+      .mgrbtn{
+            margin-top: -0.8rem !important;
+            margin-bottom: -0.8rem !important;
+      }
+} 
+ 
+@media (max-width: 414px) {
+      .layer {
+            clip-path: polygon(100% 0, 100% 33.5%, 29% 98%, 0 62%, 0 0);
+      }
+      .mgrText {
+            margin-top: 110px;
+            margin-left: 20px;
+      }
+      .mgrText h1 {
+            font-size: 1.9rem !important;
+      }
+      .mgrform {
+            width: 312px;
+            height: 300px;
+            border: 2px solid rgb(183, 184, 185);
+            background-color: rgb(183, 184, 185);
+            margin-top: -350px;
+            margin-left: 45px;
+            box-shadow: 5px 6px yellow;
+      }
+      .btn-rounded {
+            border-radius: 25px;
+            width: 120px;
+            margin: 5px;
+      }
+      .mgrformtp {
+            margin-top: 10px !important;
+      }
+      .h6clr{
+            margin: 4px 0 !important;
+      }
+      hr{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+      }
+      
+      .mgrbtn{
+            margin-top: -0.8rem !important;
+            margin-bottom: -0.8rem !important;
+      }
+} 
+

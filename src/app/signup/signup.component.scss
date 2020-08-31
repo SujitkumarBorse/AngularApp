@@ -1,0 +1,25 @@
+.mgrTop{
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+}
+.btn-rounded{
+      border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+
+      .btnAdj{
+            width: 270px !important;
+      }
+
+}
+
+@media (max-width: 414px) {
+
+      .btn-lg{
+            width: 354px !important;
+            margin:5px 15px !important;
+      }
+}
+
